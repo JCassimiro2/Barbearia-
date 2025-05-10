@@ -214,6 +214,22 @@
   font-size: 1.1em;
 }
 
+.sobre-conteudo {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.foto-sobre {
+  width: 150px;
+  height: 150px;
+  background: #ccc;
+  border-radius: 8px;
+}
+
+
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
